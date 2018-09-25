@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:200,300,400,500');
+
+/*
+ * Globals
+ */
+
+/* LANDING PAGE - START */
+
+/* COVER DIV */
+
+#first-section-page-1 {
+  height: 100vh;
+  background-image: url(../image1.png);
+  background-size: cover;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: whitesmoke;
+  text-shadow: none;
+  background-color: #141c32;
+  border: 1px solid #ee4b71;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  scroll-behavior: smooth;
+  height: 400vh;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cover-heading {
+  margin-right: 4%;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+  color: #fff;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+   color: #fff;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+   color: #fff;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+    color: #fff;
+  }
+  .masthead-nav {
+    float: right;
+    color: #fff;
+  }
+}
+
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg2 {
+  padding-top: 2%;
+  padding: 10px 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+
+}
+
+.lead1 {
+  margin-top: 10%;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.lead2 {
+  margin-top: 5%;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+}
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 50%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #131C31;
+   color: white;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+
+}
+
+/* LANDING PAGE 1 - END */
+
+/* ABOUT US PAGE 2 - START */
+
+ #first-section-page-2 {
+  height: 100vh;
+  text-align: center;
+  background-image: none;
+  background-image: url(../image1.png);
+  background-size: cover;
+}
+
+.cover-heading2 {
+  height: 20vh;
+  margin-top: 8%;
+  margin-right: 2%;
+}
+
+.lead4 {
+  text-align: justify;
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-right: 8%;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+}
+
+.card2 {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 40vh;
+}
+
+h5 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  margin-right: 1.5%;
+}
+
+
+/* ABOUT US PAGE 2 - END */
+
+
+/* TEAMS PAGE 3 - START */
+
+h1 {
+  margin: 0;
+  padding-top: 10%;
+}
+
+#first-section-page-3 {
+  height: 100vh;
+  background-image: url(../image1.png);
+  text-align: center;
+  background-size: cover;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  text-align: center;
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+  #first-section-page-2 {
+  height: 100vh;
+  text-align: center;
+  background-image: none;
+  background-color: black;
+}
+
+  .column {
+  text-align: center;
+  float: left;
+  margin-bottom: 16px;
+  border: 1px solid #ee4b71;
+}  
+
+  .card {
+    padding-top: px;
+  }
+
+
+}
+
+.card {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 50vh;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  justify-content: center;
+
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.wrapper-page-3-teams {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 6%;
+}
+
+.cover .btn-lg {
+  padding-top: 2%;
+  padding: 10px 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 15%;
+}
+
+.btn btn-lg btn-default2 {
+
+}
+
+.btn-default2,
+.btn-default2:hover,
+.btn-default2:focus {
+  color: whitesmoke;
+  text-shadow: none; 
+  background-color: #141c32;
+  border: 1px solid #ee4b71;
+}
+
+.lead3 {
+}
+
+/* TEAMS PAGE 3 - START */
+
+/* CONTACT US PAGE 4 - START */
+
+#first-section-page-4 {
+  height: 100vh;
+  background-image: url(../image1.png);
+  text-align: center;
+  background-size: cover;
+}
+
+
+
+/* CONTACT US PAGE 4 - END */
+
+.cover-heading3 {
+  height: 20vh;
+  margin-top: 12%;
+  margin-right: 2%;
+}
+
+.lead5 {
+  text-align: justify;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  text-decoration:none;
+}
